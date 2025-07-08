@@ -12,7 +12,7 @@ export interface S3ImageMetadata {
 export const fetchImagesFromManifest = async (): Promise<any[]> => {
   try {
     // You can create a manifest.json file in your S3 bucket that lists all images
-    const response = await fetch('https://leoaxis8520.s3.us-east-1.amazonaws.com/images/events/manifest.json', {
+    const response = await fetch('https://leoaxis6666.s3.us-east-1.amazonaws.com/images/events/manifest.json', {
       method: 'GET',
       headers: {
         'Accept': 'application/json',
