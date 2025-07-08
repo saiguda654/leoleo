@@ -20,7 +20,7 @@ export const ActivitiesSection: React.FC = () => {
         {/* Image Carousel */}
         <div className="mb-16">
           <ImageCarousel 
-            images={fallbackEventBanners}
+            images={eventBanners}
             autoplayInterval={6000}
             className="mb-8"
           />
