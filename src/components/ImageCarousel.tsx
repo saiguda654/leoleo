@@ -78,15 +78,6 @@ export const ImageCarousel: React.FC<ImageCarouselProps> = ({
                 />
                 {/* Gradient overlay for better text readability */}
                 <div className="absolute inset-0 bg-gradient-to-t from-black/30 via-transparent to-transparent" />
-                
-                {/* Image title overlay */}
-                {image.title && (
-                  <div className="absolute bottom-6 left-6 right-6">
-                    <h3 className="text-white text-xl md:text-2xl font-bold drop-shadow-lg">
-                      {image.title}
-                    </h3>
-                  </div>
-                )}
               </div>
             </div>
           ))}
