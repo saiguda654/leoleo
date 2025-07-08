@@ -9,7 +9,7 @@ export interface EventBanner {
 }
 
 // AWS S3 Configuration
-const S3_BUCKET_URL = 'https://your-bucket-name.s3.your-region.amazonaws.com';
+const S3_BUCKET_URL = 'https://leoaxis8520.s3.us-east-1.amazonaws.com';
 const EVENTS_FOLDER = 'images/events';
 
 // Helper function to generate S3 URLs
