@@ -4,6 +4,7 @@ import StatsCounter from '../components/StatsCounter';
 import ServicesSection from '../components/ServicesSection';
 import TestimonialSlider from '../components/TestimonialSlider';
 import ClientsSection from '../components/ClientsSection';
+import { ActivitiesSection } from '../components/ActivitiesSection';
 import { ArrowRight } from 'lucide-react';
 import { Link } from 'react-router-dom';
 
@@ -46,6 +47,8 @@ const HomePage: React.FC = () => {
       </section>
       
       <ServicesSection />
+      
+      <ActivitiesSection />
       
       <TestimonialSlider />
       
